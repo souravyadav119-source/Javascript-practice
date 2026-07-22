@@ -1,6 +1,6 @@
 // Longest Word
-
 function lognestword(str){
+
     let words = str.split(" ");
     let longest = ""
 
