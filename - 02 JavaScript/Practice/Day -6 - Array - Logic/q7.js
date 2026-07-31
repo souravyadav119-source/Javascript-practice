@@ -1,4 +1,4 @@
-//  Find kargest number in Array
+//  Find largest number in Array
 
 function largestnumber(arr){
     let largest = arr[0];
