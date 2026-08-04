@@ -18,6 +18,11 @@ body{
 
 }
 
+
+#paragraph{
+    background-color: white;
+}
+
 button {
     background-color: black;
     color:white;
