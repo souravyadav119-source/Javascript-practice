@@ -25,6 +25,12 @@ body {
 }
 
 
+#removebtn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
 .active {
     color: white;
     background-color: black;
