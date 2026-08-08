@@ -1,10 +1,11 @@
 // add appendchild()
 
-let button = document.getElementById("btn");
+let appendbtn = document.getElementById("appendbtn");
+let prependbtn = document.getElementById("prependbtn");
 let list = document.getElementById("list");
 
 
-button.addEventListener("click", function () {
+appendbtn.addEventListener("click", function () {
 
     // create a new <li>
 
@@ -17,4 +18,19 @@ button.addEventListener("click", function () {
 
     // Append inside the list
     list.appendChild(newItem);
+
+})
+
+
+prependbtn.addEventListener("click", function(){
+ 
+    let newItem = document.createElement("li");
+//  prepend text 
+
+newItem.textContent = "JavaScript";
+
+// prepend inside the list
+list.prepend(newItem);
+    
+
 })
