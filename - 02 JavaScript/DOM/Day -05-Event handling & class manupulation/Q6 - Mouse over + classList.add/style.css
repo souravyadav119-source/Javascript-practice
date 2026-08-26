@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#title{
+ margin-bottom: 20px;   
+}
+
+#list{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+#btn{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+ .highlight{
+    color: white;
+    background-color: black;
+    padding: 10px;
+} 
