@@ -1,9 +1,8 @@
-let numbers = [10,20,30,40,50];
+let numbers = [10, 20, 30, 40, 50];
 
 let sum = 0;
 
-
-for(let i = 0; i < numbers.length; i++){
+for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i];
 }
 
@@ -11,4 +10,3 @@ let average = sum / numbers.length;
 
 console.log("Total Sum:", sum);
 console.log("Average:", average);
-
