@@ -5,4 +5,4 @@ for(let i = 1; i <= number; i++){
    factorial *=i;
 }
 
-console.log('Factorail of ' + number + ':', factorial);
+console.log('Factorail of ' + number + ' :' ,  factorial);
